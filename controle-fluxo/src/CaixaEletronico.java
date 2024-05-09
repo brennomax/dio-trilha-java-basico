@@ -12,7 +12,7 @@ public class CaixaEletronico {
             saldo = saldo - valorSolicitado;
             System.out.println("Você sacou " + valorSolicitado + " e o seu novo saldo é: " + saldo);
         }else{
-            System.out.println("Slado insuficiente.");
+            System.out.println("Saldo insuficiente.");
         }        
     }
 }

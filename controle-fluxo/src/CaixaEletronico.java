@@ -6,6 +6,7 @@ public class CaixaEletronico {
         double valorSolicitado;
         Scanner scanner = new Scanner (System.in);
 
+        System.out.println("Qual o valor a sacar: ");
         valorSolicitado = scanner.nextDouble();
 
         if (valorSolicitado < saldo) {
